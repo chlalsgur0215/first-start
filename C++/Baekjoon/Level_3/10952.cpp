@@ -2,6 +2,8 @@
 using namespace std;
 int main()
 {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
     int A, B;
     while(true){
         ios_base::sync_with_stdio(false);
@@ -13,3 +15,19 @@ int main()
         cout << A + B << '\n';
     }
 }
+
+// -------------------------------------
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     ios_base::sync_with_stdio(false);
+//     cin.tie(NULL);
+//     int A, B;
+//     while(cin >> A >> B){
+//         cout << A + B << '\n';
+//         if(A == 0 && B == 0){
+//             break;
+//         }
+//     }
+// }
