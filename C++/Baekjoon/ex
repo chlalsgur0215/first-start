@@ -10,6 +10,11 @@ cin.tie(NULL) : cin과 cout의 연결을 끊음.
  ㄴ 원래 cin 으로 입력시 cout의 버퍼에 들어가있는 내용을 모두 내보내고 cin이 동작함. 그걸 끊으니 cout 버퍼에 들어가기만 함 > 더 빨라짐
     ㄴ 콘솔창에는 출력되는걸로 보일거임.
 
+while(cin >> A >> B) 처럼 조건 걸기 가능. 제대로된 값이라면 true
+
+
+
+
 실무에선 printf계열 / 자체제작 입출력 시스템을 사용함.
 scanf("%d", &T) / printf("%d, &T) 파라미터 T를 입력받고, 출력하는.
 %d : 정수(int) / %f : 실수(float) / %lf : 실수(double) / %c : 문자(char) / %s : 문자열(char*)
