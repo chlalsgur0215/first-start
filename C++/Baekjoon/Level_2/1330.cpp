@@ -9,7 +9,7 @@ int main()
     } else if (A < B){
         cout << '<';
     } else{
-        cout << '=';
+        cout << '==';
     }
 }
 
